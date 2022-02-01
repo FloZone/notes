@@ -13,14 +13,3 @@ actions:
 
 footer: MIT Licensed | Copyright © 2022-present Florian RODRIGUEZ
 ---
-
-## TODO
-
-* Search bar not working
-* Toggle sidebar
-* Progress bar
-* Taglist
-* Icon navbar
-* LastUpdated
-* GitHub hook -> auto build
-* Custom /dist location to docker caddy

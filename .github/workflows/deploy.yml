@@ -1,0 +1,20 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    name: Build and deploy code
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install libs
+        run: yarn install
+      - name: Build
+        run: yarn docs:build
+      - name: Deploy
+        run: rm -rf /vuepress/build && cp -r ./docs/.vuepress/dist /vuepress/build

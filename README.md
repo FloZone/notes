@@ -7,11 +7,10 @@ Vuepress project with some notes about food, devs, tutorials, random things, etc
 - [ ] Search bar not working
 - [ ] Toggle sidebar
 - [ ] PWA
-- [ ] Progress bar
+- [ ] Reading progress bar
 - [ ] Taglist
 - [ ] Icon navbar
 - [ ] Favicon
 - [ ] LastUpdated
 - [ ] Auto-generate navbar and sidebar
-- [ ] GitHub hook -> auto build
-- [ ] Custom /dist location to docker caddy shared folder
+- [ ] GitHub runner: build + copy into caddy shared folder

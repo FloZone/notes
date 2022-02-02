@@ -1,14 +1,8 @@
----
-tags: ['dessert']
----
-
 # Cookies
 
 **Portions** : 3/4 personnes  
 **Temps de préparation** : 10min  
 **Temps de cuisson** : 10min par fournée de cookies
-
-<TagLinks />
 
 ## Ingrédients
 

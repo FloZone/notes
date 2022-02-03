@@ -13,5 +13,6 @@ Vuepress project with some notes about food, devs, tutorials, random things, etc
 - [ ] Favicon
 - [ ] LastUpdated
 - [ ] Auto-generate navbar and sidebar
-- [ ] GitHub runner: build + copy into caddy shared folder
+- [x] GitHub runner: build + copy into caddy shared folder
 - [ ] GitHub runner: install service + verbose for manual running
+- [ ] yarn docs:build error with JS/CSS files

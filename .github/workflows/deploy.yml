@@ -17,4 +17,4 @@ jobs:
       - name: Build
         run: yarn docs:build
       - name: Deploy
-        run: rm -rf /vuepress_build && cp -r ./docs/.vuepress/dist /vuepress_build
+        run: rm -rf /vuepress_build/* && cp -r ./docs/.vuepress/dist/* /vuepress_build/

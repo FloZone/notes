@@ -1,5 +1,6 @@
 module.exports = {
   // Global config
+  base: '',
   lang: 'fr-FR',
   title: 'FLZ_notes!',
   description: 'Mes notes',

@@ -25,7 +25,6 @@ module.exports = {
   // Plugins
   plugins: [
     "@vuepress/pwa",  // TODO not working
-    "@vuepress/last-updated",  // TODO not working
     "@vuepress/docsearch",  // TODO plugin ok but search ko
     "@vuepress/toc"
   ]

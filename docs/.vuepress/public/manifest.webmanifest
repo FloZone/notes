@@ -1,0 +1,16 @@
+{
+  "name": "FLZ Notes!",
+  "short_name": "FLZ Notes!",
+  "description": "Mes notes",
+  "start_url": "/notes/index.html",
+  "display": "standalone",
+  "background_color": "#3e4c5a",
+  "theme_color": "#adbac7",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}

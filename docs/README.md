@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Mes notes
-tagline: Tout est testé et approuvé
+tagline: Testé et approuvé
 
 actions:
   - text: Des recettes

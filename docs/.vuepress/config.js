@@ -1,30 +1,53 @@
+var path = require("path");
+
+BASE = "/notes/"
+
+
 module.exports = {
   // Global config
-  base: '/notes/',
-  lang: 'fr-FR',
-  title: 'FLZ_notes!',
-  description: 'Mes notes',
+  base: BASE,
+  lang: "fr-FR",
+  title: "FLZ Notes!",
+  description: "Mes notes",
+
 
   // Theme
-  theme: '@vuepress/theme-default',
+  // theme: path.resolve(__dirname, "./theme"),
+  theme: "@vuepress/theme-default",
+  head: [
+    ["link", { rel: "manifest", href: "/manifest.webmanifest" }],
+    ["meta", { name: "theme-color", content: "#adbac7" }],
+  ],
   themeConfig: {
-    logo: 'https://vuejs.org/images/logo.png',
+    repo: "https://github.com/FloZone/notes",
+
+    logo: "/images//logo.png",
     navbar: [
       { text: "Recettes", link: "/recettes/" },
       { text: "Dev", link: "/dev/" }
     ],
     sidebar: {
-      '/recettes/': [
-        '/recettes/',
-        'cookies',
-        'creme_anglaise'
+      "/recettes/": [
+        "/recettes/",
+        "cookies",
+        "creme_anglaise"
       ]
-    }
+    },
+    editLink: true,
+    editLinkText: "Editer sur GitHub",
+    contributors: false,
+    lastUpdated: true,
+    lastUpdatedText: "Dernière MàJ",
   },
 
   // Plugins
   plugins: [
-    "@vuepress/pwa",  // TODO not working
+    [
+      "@vuepress/pwa",  // TODO not working
+      {
+        skipWaiting: true
+      }
+    ],
     "@vuepress/docsearch",  // TODO plugin ok but search ko
     "@vuepress/toc"
   ]

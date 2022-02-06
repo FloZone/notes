@@ -15,13 +15,13 @@ module.exports = {
   // theme: path.resolve(__dirname, "./theme"),
   theme: "@vuepress/theme-default",
   head: [
-    ["link", { rel: "manifest", href: "/manifest.webmanifest" }],
+    ['link', { rel: "icon", href: "/notes/favicon.ico" }],
+    ["link", { rel: "manifest", href: "/notes/manifest.webmanifest" }],
     ["meta", { name: "theme-color", content: "#adbac7" }],
   ],
   themeConfig: {
     repo: "https://github.com/FloZone/notes",
-
-    logo: "/images//logo.png",
+    logo: "/images/logo.png",
     navbar: [
       { text: "Recettes", link: "/recettes/" },
       { text: "Dev", link: "/dev/" }

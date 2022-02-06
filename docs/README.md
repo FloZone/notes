@@ -11,5 +11,5 @@ actions:
     link: /dev/
     type: secondary
 
-footer: MIT Licensed | Copyright © 2022-present Florian RODRIGUEZ
+footer: MIT Licensed | Copyright © 2022 Florian RODRIGUEZ
 ---

@@ -1,8 +1,12 @@
+---
+tags: [dessert, sucré]
+---
+
 # Crème anglaise
 
-**Portions** : 6 personnes  
-**Temps de préparation** : 10min  
-**Temps de cuisson** : 15min  
+**Portions** : 6 personnes
+**Temps de préparation** : 10min
+**Temps de cuisson** : 15min
 
 ## Ingrédients
 

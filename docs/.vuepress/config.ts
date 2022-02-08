@@ -2,11 +2,17 @@ import { defineUserConfig, Page } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
 import { path } from '@vuepress/utils'
 import { NavbarConfig, SidebarConfig } from '@vuepress/theme-default'
+import { generateTagsSidebar, generateSidebarCollapsible } from './config/utils'
+import { copyCode } from "vuepress-plugin-copy-code2";
 
 const BASE = "/notes/"
 
 
-function generateNavbar(): NavbarConfig {
+export function buildPath(path: string): string {
+  return BASE + path
+}
+
+export function generateNavbar(): NavbarConfig {
   return [
     {
       text: 'Tags',
@@ -23,13 +29,11 @@ function generateNavbar(): NavbarConfig {
   ]
 }
 
-function generateSidebar(): SidebarConfig {
+export function generateSidebar(): SidebarConfig {
   return {
-    "/recettes/": [
-      "/recettes/",
-      "cookies",
-      "creme_anglaise"
-    ]
+    '/tags.html': [generateTagsSidebar()],
+    "/recettes/": generateSidebarCollapsible("Recettes", "/recettes/"),
+    "/dev/": generateSidebarCollapsible("Dev", "/dev/")
   }
 }
 
@@ -42,8 +46,8 @@ export default defineUserConfig<DefaultThemeOptions>({
 
   // Theme
   head: [
-    ['link', { rel: "icon", href: "/notes/favicon.ico" }],
-    ["link", { rel: "manifest", href: "/notes/manifest.webmanifest" }],
+    ['link', { rel: "icon", href: buildPath("favicon.ico") }],
+    ["link", { rel: "manifest", href: buildPath("manifest.webmanifest") }],
     ["meta", { name: "theme-color", content: "#adbac7" }],
   ],
   theme: path.resolve(__dirname, './theme'),
@@ -63,6 +67,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   plugins: [
     "@vuepress/toc",
     "@vuepress/pwa",  // TODO not working
+    copyCode({}),
     [
       '@vuepress/plugin-search',
       {

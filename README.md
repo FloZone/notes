@@ -26,5 +26,9 @@ Vuepress project with some notes about food, devs, tutorials, random things, etc
   * env var GIT_SSH = path/to/plink.exe
   * use putty to accept server key
   * screenshots in dropbox
-- [ ] Link for zelda map & fh5 map
+- [x] Link for zelda map & fh5 map
 - [ ] Insert commit: https://blog.frankel.ch/inserting-new-commit-git-history/#branch-and-rebase
+- [ ] Tuto hack consoles
+- [x] Liste des jeux recherchés
+- [ ] Article GC + cd GB loader custom qui est mieux que l'original
+- [ ] Cassettes cover for games

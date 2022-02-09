@@ -19,21 +19,27 @@ export function generateNavbar(): NavbarConfig {
       link: '/tags/',
     },
     {
+      text: 'Random',
+      link: '/random/',
+    },
+    {
       text: 'Recettes',
       link: '/recettes/',
     },
     {
-      text: 'Devs',
-      link: '/dev/',
+      text: 'Games',
+      link: '/games/',
     },
+
   ]
 }
 
 export function generateSidebar(): SidebarConfig {
   return {
     '/tags.html': [generateTagsSidebar()],
+    "/random/": generateSidebarCollapsible("Random", "/random/"),
     "/recettes/": generateSidebarCollapsible("Recettes", "/recettes/"),
-    "/dev/": generateSidebarCollapsible("Dev", "/dev/")
+    "/games/": generateSidebarCollapsible("Games", "/games/"),
   }
 }
 

@@ -1,7 +1,7 @@
 ---
 tags: []
 ---
-# Titre
+# Template
 **Portions**: X personnes
 **Temps de préparation**: Xmin
 **Temps de cuisson**: Xmin

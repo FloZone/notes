@@ -1,5 +1,5 @@
 ---
-tags: [dessert, sucré]
+tags: [dessert]
 ---
 
 # Crème anglaise

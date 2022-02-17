@@ -4,11 +4,14 @@ heroText: Mes notes
 tagline: Testé et approuvé
 
 actions:
+  - text: Random
+    link: /random/
+    type: primary
   - text: Des recettes
     link: /recettes/
-    type: primary
-  - text: Du dev
-    link: /dev/
+    type: secondary
+  - text: Des jeux
+    link: /games/
     type: secondary
 
 footer: MIT Licensed | Copyright © 2022 Florian RODRIGUEZ

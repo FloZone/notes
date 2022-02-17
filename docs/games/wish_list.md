@@ -1,3 +1,6 @@
+---
+tags: [collection]
+---
 # Jeux recherchés
 
 ## Zelda

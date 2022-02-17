@@ -13,7 +13,7 @@ export const listRelativePagesInFolder = function (root: string): string[] {
 }
 
 export function generateSidebarCollapsible(name: string, pathname: string): [SidebarGroupCollapsible] {
-  const targetPath = path.resolve(__dirname, `..${pathname}`)
+  const targetPath = path.resolve(__dirname, `../..${pathname}`)
   const pages = listRelativePagesInFolder(targetPath).map((p) => `${pathname}${p}`)
 
   return [{

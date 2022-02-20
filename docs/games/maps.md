@@ -12,7 +12,7 @@ Carte interactive de Zelda Beath of the Wild avec tous les marqueurs, possibilit
 <CenteredImage :src="$withBase('/images/games/maps/zelda_botw.png')" alt="zelda_botw" width="500" />
 
 ## Forza Horizon 5
-Carte interactive de Forza Horizon 5 avec tous les marqueurs et possibilité de filter les éléments.
+Carte interactive de Forza Horizon 5 avec tous les marqueurs et possibilité de filtrer les éléments.
 
 [Carte Forza Horizon 5](https://mapgenie.io/forza-horizon-5/maps/mexico)
 

@@ -17,7 +17,6 @@ Vuepress project with some notes about food, devs, tutorials, random things, etc
 - [x] Back to top in mobile mode
 - [x] Copy button for code block
 - [x] Taglist
-- [ ] Checkbox list
 
 ## Content
 - [ ] Torque custom PID

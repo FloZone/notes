@@ -2,9 +2,11 @@
 tags: [dessert]
 ---
 # Crumble aux poires
-**Portions**: 6 personnes
-**Temps de préparation**: 10min
-**Temps de cuisson**: 30min
+<CenteredImage :src="$withBase('/images/recettes/crumble_poire.jpg')" alt="crumble_poire" width="500" />
+
+**Portions**: 6 personnes<br>
+**Temps de préparation**: 10min<br>
+**Temps de cuisson**: 30min<br>
 **Température de cuisson**: 180°
 
 ## Ingrédients

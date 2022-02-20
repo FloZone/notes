@@ -1,10 +1,12 @@
 ---
 tags: [dessert]
 ---
-# Gateaux chocolat courgettes
-**Portions**: 6/8 personnes
-**Temps de préparation**: 15min
-**Temps de cuisson**: 20/25min
+# Gateau chocolat courgettes
+<CenteredImage :src="$withBase('/images/recettes/gateau_chocolat_courgette.jpg')" alt="gateau_chocolat_courgette" width="500" />
+
+**Portions**: 6/8 personnes<br>
+**Temps de préparation**: 15min<br>
+**Temps de cuisson**: 20/25min<br>
 **Température de cuisson**: 180°
 
 ## Ingrédients
@@ -13,7 +15,7 @@ tags: [dessert]
 - **Sucre**: 100g
 - **Courgette**: 1 (= 200g)
 - **Farine**: 70g
-- **Levure chimique**: 1/2 sachet
+- **Levure chimique**: ½ sachet
 - **Sel**: 1 pincée
 
 ## Instructions

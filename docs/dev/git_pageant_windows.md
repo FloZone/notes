@@ -6,9 +6,9 @@ tags: [dev]
 Voici les instructions pour charger sa clef SSH Git sur Windows avec Pageant et qu'elle soit reconnue par la CLI.
 
 ## Instructions
-1. Installer **git for windows** pour obtenir les CLI git -> https://gitforwindows.org/
+1. Installer **git for windows** pour obtenir les CLI git: [https://gitforwindows.org/](https://gitforwindows.org/)
 
-2. Télécharger **Pageant**, **Putty**, **Plink** et **Puttygen** qui permettront de charger sa clef SSH -> https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+2. Télécharger **Pageant**, **Putty**, **Plink** et **Puttygen** qui permettront de charger sa clef SSH: [https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 3. Créer une variable d'environement `GIT_SSH` pointant vers l'emplacement de `plink.exe`
 <CenteredImage :src="$withBase('/images/dev/git_env_var.png')" alt="git_env_var" width="500" />

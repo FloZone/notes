@@ -1,7 +1,7 @@
 ---
 tags: [retrogaming]
 ---
-# Xbox 360: Flash
+# Xbox 360: Flash d'un disque dur
 
 ## Informations
 Ce tutoriel permet de flasher un disque dur non officiel afin qu'il soit reconnu par une Xbox non hackée (comme un disque dur normal).

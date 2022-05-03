@@ -7,8 +7,8 @@ tags: [collection]
 - [ ] **[NES]** Zelda 1
 - [x] **[NES]** Zelda 2
 - [ ] **[SNES]** Link to the Past
-- [ ] **[N64]** Ocarina of Time
-- [ ] **[N64]** Majora's Mask
+- [x] **[N64]** Ocarina of Time
+- [x] **[N64]** Majora's Mask
 - [x] **[GC]** Wind Waker
 - [x] **[GC]** Twilight Princess
 - [x] **[GC]** Four Swords Adventure
@@ -57,13 +57,12 @@ tags: [collection]
 - Star Wars Dark Forces
 - Star Wars: tous
 - Syphon Filter 2
-- Tenchu: tous
+- Tenchu 1
 - Tombi 1 & 2
 - Tony Hawks Pro Skater 2
 - Warzone 2100
 
 ## PS2
-- Age of Empire 2
 - Dragon Ball (tous)
 - God of War
 - Gran Turismo 3

@@ -23,5 +23,4 @@ Vuepress project with some notes about food, devs, tutorials, random things, etc
 - [ ] Shelly schema
 - [ ] Conf softwares
 - [ ] Insert commit: https://blog.frankel.ch/inserting-new-commit-git-history/#branch-and-rebase
-- [ ] Tuto hack consoles
 - [ ] Article GC + cd GB loader custom qui est mieux que l'original: https://my.gameblog.fr/membre/34666/blog/tuto-le-gameboy-player-en-tirer-le-meilleur-201129

@@ -102,7 +102,6 @@ tags: [collection]
 - Mario Party
 
 ## GC
-- Animal Crossing
 - Luigi's Mansion
 - Mario Party
 - Metal Gear Solid Twin Snake

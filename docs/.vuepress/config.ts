@@ -68,6 +68,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     sidebar: generateSidebar(),
     editLink: true,
     editLinkText: "Editer sur GitHub",
+    docsDir: 'docs',
     contributors: false,
     lastUpdated: true,
     lastUpdatedText: "Dernière MàJ",

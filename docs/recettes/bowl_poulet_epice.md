@@ -1,7 +1,7 @@
 ---
 tags: [plat]
 ---
-# Mug cake au chocolat
+# Bowl blé et poulet épicé
 <CenteredImage :src="$withBase('/images/recettes/bowl_poulet_epice.jpg')" alt="recette" width="500" />
 
 **Portions**: 2 personnes<br>

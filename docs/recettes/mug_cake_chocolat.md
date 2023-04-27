@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: [dessert]
 ---
 # Mug cake au chocolat
 <CenteredImage :src="$withBase('/images/recettes/mug_cake.jpg')" alt="recette" width="500" />

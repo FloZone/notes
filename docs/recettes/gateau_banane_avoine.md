@@ -1,7 +1,7 @@
 ---
 tags: [dessert]
 ---
-# Mug cake au chocolat
+# Gateau banane et flocons d'avoine
 <CenteredImage :src="$withBase('/images/recettes/gateau_banane_avoine.jpg')" alt="recette" width="500" />
 
 **Portions**: 4 personnes<br>

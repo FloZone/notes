@@ -1,7 +1,7 @@
 ---
 tags: [plat]
 ---
-# Bowl
+# Boulettes au poulet
 <CenteredImage :src="$withBase('/images/recettes/boulette_poulet.jpg')" alt="recette" width="500" />
 
 **Portions**: 2 personnes<br>

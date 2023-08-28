@@ -11,7 +11,7 @@ tags: [plat]
 
 ## Ingrédients
 - **Courgettes**: 4
-- **Viande hacée**: 200g
+- **Viande hachée**: 200g
 - **Coulis de tomate**: 200g
 - **Oignon**: 1
 - **Œuf**: 1
@@ -29,4 +29,3 @@ tags: [plat]
 7. Verser dans un saladier, ajouter la viande haché, la chapelure, le parmesan, le coulis de tomates, l’oeuf, la ciboulette ciselée et un peu de sel
 8. Bien mélanger puis répartir dans les courgettes
 9. Faire cuire à 180° pendant 15min
-⁠

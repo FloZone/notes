@@ -1,5 +1,5 @@
 ---
-tags: [retrogaming]
+tags: [retrogaming,hack]
 ---
 # PSP: Installer l'Unofficial POPSLoader
 

@@ -1,5 +1,5 @@
 ---
-tags: [retrogaming]
+tags: [retrogaming,hack]
 ---
 # PS2: Installation et utilisation de FreeMCBoot
 

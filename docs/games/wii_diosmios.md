@@ -1,5 +1,5 @@
 ---
-tags: [retrogaming]
+tags: [retrogaming,hack]
 ---
 # Wii: Installer DiosMios
 

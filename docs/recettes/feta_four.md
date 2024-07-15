@@ -13,6 +13,7 @@ tags: [plat]
 - **Courgette**: 2
 - **Crème liquide**: 1 petite brique
 - **Paprika**: 1 cuillère à café
+- **Pâtes**: 300g
 
 ## Instructions
 1. Mettre les 2 feta au milieu d'un plat
@@ -20,3 +21,5 @@ tags: [plat]
 3. Verser la crème liquide sur les courgettes
 4. Mettre un peu de sel, poivre et paprika
 5. Faire cuire à 180° pendant 20min
+6. Faire cuire les pâtes
+7. Une fois la cuisson au four terminée, verser les pâtes dans le plat et mélanger
